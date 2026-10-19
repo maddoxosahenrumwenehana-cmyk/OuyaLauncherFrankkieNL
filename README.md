@@ -18,6 +18,37 @@ An unofficial controller-focused modification of [FrankkieNL's BAXY / OUYA Launc
 
 See [the release notes](GITHUB_RELEASE_DRAFT.md) for device notes and release checks.
 
+## Screenshots
+
+These screenshots were captured from the launcher running on a PS202. They show the home screen, app library, and both ends of the settings menu.
+
+<details>
+<summary>Show launcher screenshots</summary>
+
+### Home screen
+
+![MadOS Launcher home screen](screenshots/capture-good.png)
+
+### All Apps
+
+![All Apps screen](screenshots/all-apps.png)
+
+### Settings — top
+
+![Settings menu, top section](screenshots/settings-top.png)
+
+### Settings — bottom
+
+![Settings menu, bottom section](screenshots/settings-bottom.png)
+
+</details>
+
+### Example wallpaper
+
+![Retro gaming example wallpaper](screenshots/example-wallpaper.png)
+
+This is an example wallpaper image supplied by the project maintainer. See [Artwork and attribution](ARTWORK_AND_ATTRIBUTION.md) for the current attribution and rights notes.
+
 ## Build
 
 The stable Apktool-decoded source is in `OUYAlauncher-decoded/`. From a Windows CMD prompt at this repository's root:
