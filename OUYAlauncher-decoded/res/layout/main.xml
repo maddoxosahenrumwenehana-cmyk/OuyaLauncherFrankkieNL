@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/layout_background" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/main_container_of_scrollview" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="25.0dp">
+        <RelativeLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/logo" android:layout_width="wrap_content" android:layout_height="80.0dp" android:layout_margin="10.0dp" android:layout_marginRight="40.0dp" android:src="@drawable/logo_default_old" android:scaleType="fitStart" android:adjustViewBounds="true" />
+            <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dp" android:layout_alignParentRight="true">
+                <LinearLayout android:orientation="horizontal" android:background="@drawable/top_action_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dp">
+                    <ImageView android:layout_gravity="bottom" android:layout_width="wrap_content" android:layout_height="35.0dp" android:src="@drawable/btn_ouya_a" android:scaleType="fitStart" android:adjustViewBounds="true" />
+                    <TextView android:textSize="20.0sp" android:textColor="#fff" android:gravity="bottom" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginRight="5.0dp" android:layout_marginBottom="5.0dp" android:text="Start" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:background="@drawable/top_action_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dp">
+                    <ImageView android:layout_gravity="bottom" android:layout_width="wrap_content" android:layout_height="35.0dp" android:src="@drawable/btn_ouya_x" android:scaleType="fitStart" android:adjustViewBounds="true" />
+                    <TextView android:textSize="20.0sp" android:textColor="#fff" android:gravity="bottom" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginRight="5.0dp" android:layout_marginBottom="5.0dp" android:text="App Info" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:background="@drawable/top_action_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dp">
+                    <ImageView android:layout_gravity="bottom" android:layout_width="wrap_content" android:layout_height="35.0dp" android:src="@drawable/btn_ouya_y" android:scaleType="fitStart" android:adjustViewBounds="true" />
+                    <TextView android:textSize="20.0sp" android:textColor="#fff" android:gravity="bottom" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginRight="5.0dp" android:layout_marginBottom="5.0dp" android:text="Filters" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+        <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/table" android:layout_width="match_parent" android:layout_height="match_parent">
+                <ProgressBar android:layout_width="72.0dp" android:layout_height="72.0dp" android:layout_gravity="center" android:indeterminate="true" android:indeterminateDrawable="@drawable/loading_spinner" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>

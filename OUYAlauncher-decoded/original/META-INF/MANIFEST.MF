@@ -1,0 +1,234 @@
+Manifest-Version: 1.0
+Created-By: 25.0.4.1 (Eclipse Adoptium)
+
+Name: res/layout/background_chooser.xml
+SHA-256-Digest: rhAbR+S0dS0vQKtHFegX4z22TbiKkjB9c+pd7741QeA=
+
+Name: res/layout/grid_item.xml
+SHA-256-Digest: XesWtyF9YIgQMiB6K3Up9kvRj/7LndzLL0mCeEk/osM=
+
+Name: res/raw/ouya_console_wallpaper.png
+SHA-256-Digest: Plk5lRGMmvtPq5KuV3hJ+rsdvhJyzaqsIIcZ98b15jo=
+
+Name: res/drawable/btn_ouya_dpad_down.png
+SHA-256-Digest: Maspq49wII2NXjArOIWb1/suzAx2WnlWemZMS8TV34M=
+
+Name: res/drawable/btn_ouya_dpad.png
+SHA-256-Digest: ztNbLs1EwknqlBXed4vCvTtTg/tHWGETZeJiySyz2so=
+
+Name: res/drawable/btn_ouya_dpad_left.png
+SHA-256-Digest: H3TkQdJfjVycLLSD8dtdqN90X45hcOkjZEBlwlzvuzA=
+
+Name: res/drawable/bg_color.png
+SHA-256-Digest: Aao0c3RfenChTUNKE/r1Sg/uLXfsyieAZ0WuYv3DD1k=
+
+Name: res/drawable/btn_ouya_l3.png
+SHA-256-Digest: IGii3ZOtVEs3ghoX61qlzFsrMau+C5IDdCSS+xXvi/M=
+
+Name: res/drawable-mdpi-v4/ic_launcher.png
+SHA-256-Digest: an45JpjNJQfBLlrAlKApDNi3Jw4voEt9c22+R2DHSQU=
+
+Name: res/drawable/btn_ouya_r3.png
+SHA-256-Digest: Rhspa0v/PPbLwAMjPG0DIzH/OMmvfPZiraO7jZh61A0=
+
+Name: res/layout/logo_settings_screen.xml
+SHA-256-Digest: 6stt0sthD/UqFiX+C0uhs+LkZSnk978ku7lnfwPCVsM=
+
+Name: res/drawable/btn_ouya_rs_up.png
+SHA-256-Digest: E+NVjtlB647p4yTAnYoQXZT6MuLUD3SptfMhDVH7tPk=
+
+Name: res/drawable/blue.png
+SHA-256-Digest: NWrdAVJuA9XszyBlJgAcfzwlOe8L10yvwBCqqMNa3AU=
+
+Name: res/drawable/btn_ouya_o.png
+SHA-256-Digest: 9SsQ0P/QIifFS0NQJ4G3khRe4LOuyQxVA5Ff3EqUR2Y=
+
+Name: res/drawable/card_focused.xml
+SHA-256-Digest: IoJfOVuF10fiSwISDbJJbdRX1R+8i2tjHXFJsvpw1Qo=
+
+Name: res/color/state_color_text.xml
+SHA-256-Digest: Kk7ZMNT2CWH7QZAaQgoGKh0SeCvbCnVP6U10V2Y4QjI=
+
+Name: res/drawable/btn_ouya_rs_right.png
+SHA-256-Digest: 1MTZ9hvuCCe8C9hSFJZef6FBguV5ZtyBZdiMYKz6LTU=
+
+Name: res/drawable/red.png
+SHA-256-Digest: Jvc9MlGnH+EwztFO7oePk+O80YU9bprRTkTZT5HvRiA=
+
+Name: res/drawable/btn_ouya_rs_left.png
+SHA-256-Digest: QyiveeUvMEU4K2CSH8r5Wl8zLpQwNwpVzBnrDq9SusA=
+
+Name: res/drawable/card_pressed.xml
+SHA-256-Digest: /8qDRpXGv7sj3id7LoeJabGLTU6xnDMpGdgF3vnsxzI=
+
+Name: res/drawable/btn_ouya_l1.png
+SHA-256-Digest: FDYsX0NvIf44VqSmqWWrH9sFChmL5SgkNfewE4jilgY=
+
+Name: res/drawable/folder.png
+SHA-256-Digest: iXFo7+AfFzzMB5Sj6MbnNztUy3yiTJk6/QK5r4gLKaE=
+
+Name: res/drawable/gray.png
+SHA-256-Digest: 3inhvrzht/7NZFt0W73fKDeZMEj8SdhTQ7RT1KM9DWA=
+
+Name: res/drawable/btn_ouya_dpad_up.png
+SHA-256-Digest: LPFUDk4bM+nM/dSY+d9v7zqKrC5lmL8k4uGCPcA5T6k=
+
+Name: res/drawable/state_color_back.xml
+SHA-256-Digest: 0wH/8ZmyS4TSwbKKOf9rdZmNd4wCdEZByuC3m6XQ28w=
+
+Name: res/raw/icon_animation.gif
+SHA-256-Digest: 6Bzgv10BuaKEEktg5/X1LxBrAjrmdg8gPHkaipGMsJQ=
+
+Name: res/drawable/btn_ouya_r1.png
+SHA-256-Digest: ZLQr+sNrQOL6BIzqRnu9XGLlA/J0wxIdC0PSM4brpVQ=
+
+Name: res/drawable/black.png
+SHA-256-Digest: JTcB4J5zAJCSGl3VZ+SLbB4J5xa+O0oKuhFVoity8UE=
+
+Name: res/drawable/music_icon.png
+SHA-256-Digest: 4HOzbqgXMe/j07M/dQwBNHE61FJQ2I7usjDwHc7ZT68=
+
+Name: res/drawable-xhdpi-v4/ic_launcher.png
+SHA-256-Digest: 1EXG7QixRY70yLLnhuz8KymlC93rZmyNqudQeUTX5SM=
+
+Name: res/drawable/btn_ouya_r2.png
+SHA-256-Digest: IM6xEvs2syG+6M+Kmm4okwUrfqSdtDVJIdRgbvp1a+E=
+
+Name: res/raw/bg_color.png
+SHA-256-Digest: Aao0c3RfenChTUNKE/r1Sg/uLXfsyieAZ0WuYv3DD1k=
+
+Name: res/drawable/btn_ouya_l2.png
+SHA-256-Digest: l4UnTqjwZRV4FLJSuwRVGbR1CKxHik9aQp6dXO/83gw=
+
+Name: res/drawable/transparant.png
+SHA-256-Digest: U7tt83wrzwqu83JVtQjPO+m39hP6sAoQxcJMv1hdtUY=
+
+Name: res/layout/settings.xml
+SHA-256-Digest: UB9QXnn1S+vCry+JrxDDqD/f8HEF6Rgga/Z3TU6BXKg=
+
+Name: res/drawable/btn_ouya_u.png
+SHA-256-Digest: 8rWLHFVL1BZaiKp0FdtPEzr7nnCHBmeg/rMWxwt+Dzg=
+
+Name: resources.arsc
+SHA-256-Digest: aiAVhu60mdi8QPiQZ8+uJnAqYEf9gz6WBy0nXo7ofAw=
+
+Name: res/drawable/textback.9.png
+SHA-256-Digest: Eqf4HqLSb2GXBBJ7qzfaMQPhPRVPjwf3lNlPa9onIFA=
+
+Name: res/drawable/btn_ouya_ls_up.png
+SHA-256-Digest: OHKjvEXufFBAd3hVt0zO4rWOGuOdzSgAsZmtc6uGBAQ=
+
+Name: res/drawable/card_normal.xml
+SHA-256-Digest: AiJC4ENjJnRXg6WlTST4oLupUht5JsgtfQdVpLpv/64=
+
+Name: res/drawable/btn_ouya_ls_right.png
+SHA-256-Digest: TTgAyLG7WWP/UC3w+a5KhhfUt73hN1wdtKPiXFVuLN0=
+
+Name: AndroidManifest.xml
+SHA-256-Digest: W9w2J5lXHF/tUgVyZuuKFUp0TTDY/0UAALk5Pd+McEM=
+
+Name: res/drawable/btn_ouya_rs.png
+SHA-256-Digest: Wpyu8sXR07GZjL/Pxqrw8Nd1cdWmjhC812+Was8lq3w=
+
+Name: res/drawable/btn_ouya_ls.png
+SHA-256-Digest: MJm8gtvFoGp2S0ClFvZSUD4aOJFYiZ5js9Uz9s1w/Ns=
+
+Name: res/drawable-hdpi-v4/ic_launcher.png
+SHA-256-Digest: EYcWwCVjPrU4bTKNS5I0yUItEvSPFdEZ6hvlrwQVF2A=
+
+Name: res/drawable/logo_default_old.png
+SHA-256-Digest: kOaWlL+Ga8i7N0tEHk9pHAynH6m+jDuVFo5RRFosIXQ=
+
+Name: res/layout/baxy_main.xml
+SHA-256-Digest: AACSTPl5l/EbmzLIHYSTKzL6U9uabqrdOvqt8jHcg5k=
+
+Name: res/layout/grid_item_empty.xml
+SHA-256-Digest: c9VAsfZP4pVUfEV18rHKAqbu8CdE184xeLN16dPG8k0=
+
+Name: res/drawable/ouya_background.png
+SHA-256-Digest: TAtCJrJ/QAMqTan1rFCoFDt6LuAxQdxxp/jaMyVJH14=
+
+Name: res/drawable/logo_baxy_white_shadow.png
+SHA-256-Digest: Tdho2/KUQyCVm4WaepVo7sp3CcX9Y0REKiqAKGHjPUo=
+
+Name: res/layout/start.xml
+SHA-256-Digest: gmUO9qr+y2nL15RSsc2ziCu2jwinsS4NMgjfPlSbe2k=
+
+Name: res/drawable/btn_ouya_a.png
+SHA-256-Digest: llfBHgojQ6Y6XplTIM1/KFuARLnY3KB0x27ANsbzRMw=
+
+Name: res/drawable/btn_ouya_ls_left.png
+SHA-256-Digest: RcjzeWEFflfQsMY2p705cVziLZBt9QCBngjTRsR4+R0=
+
+Name: res/color/grid_item_back.xml
+SHA-256-Digest: 4Qhrn3bdB8DsJLMOmjMGHzFFwL9SKXa3hBMYelgz2uU=
+
+Name: res/drawable/btn_ouya_ls_down.png
+SHA-256-Digest: K19wYwYPZy6ayGlVUcd/vIt26QMwBmaHpYxHgvCYGkU=
+
+Name: res/layout/feedback.xml
+SHA-256-Digest: bGyktFwBL1weBC1NPUQoWOql1/g+qQgOMt4ZLFKzmNE=
+
+Name: res/drawable/logo_ouya_red.png
+SHA-256-Digest: cQ5MFgxiV8DKUC72jRBgI29pTRMKaDIBaF6s1/Gw2ag=
+
+Name: res/drawable-xxhdpi-v4/ic_launcher.png
+SHA-256-Digest: vtQZTULpLuPOtXJxOE8BEoR8I/LhV4M5IZA/jKUBBRs=
+
+Name: res/layout/music_chooser.xml
+SHA-256-Digest: TIL+3EDwhs5GqqbcYVM5qGVFGPU39rWpT4Nseib75dk=
+
+Name: res/layout/main.xml
+SHA-256-Digest: AhNEVi1hw7KSvna5e56gw9WG8YXjiboXNAaPt2YsdWM=
+
+Name: res/layout/activity_main.xml
+SHA-256-Digest: 0f+9mlWYb2AlVs0hOnjVZV8WIOved0MtWOtWFm0Di1k=
+
+Name: res/drawable/yellow.png
+SHA-256-Digest: 4OAIMeCHF7lWKGyKbiqx+hqrRPOWCgCWrWMCwpDIPYQ=
+
+Name: res/raw/logo_default.png
+SHA-256-Digest: kOaWlL+Ga8i7N0tEHk9pHAynH6m+jDuVFo5RRFosIXQ=
+
+Name: res/drawable/btn_ouya_system.png
+SHA-256-Digest: elxjdS/qfh6xlXu1gTBo9ojw7OlSuaNjonyioi8bZ/U=
+
+Name: res/drawable/star.png
+SHA-256-Digest: v3Nk1GcGdqT2VhFO5fBXTP2QwpWkMHDXAaGeiWwM8UI=
+
+Name: res/drawable/textback_small.9.png
+SHA-256-Digest: bEIT5hqGXLD77tpS3iDOICOOi9Z6zbNhQeiU079DJMc=
+
+Name: res/drawable/btn_ouya_rs_down.png
+SHA-256-Digest: wLY9kokSIvkKbWhUrIQ+/1G/ohxi/yZGRgSfNFr51aw=
+
+Name: res/raw/ouya_background.png
+SHA-256-Digest: TAtCJrJ/QAMqTan1rFCoFDt6LuAxQdxxp/jaMyVJH14=
+
+Name: res/layout/table_row.xml
+SHA-256-Digest: TnQeOscSG+xNnjq+k9TpZKR3qoSSZYWAYqzzRkAeHMk=
+
+Name: res/drawable/btn_ouya_dpad_right.png
+SHA-256-Digest: XHQ8ex7CethXWZq4MzxZfASWPodBsgtt9ibL7GiYwNY=
+
+Name: res/layout/running_apps.xml
+SHA-256-Digest: rWKN269exM5Nwtx2xu95/8x7DvyjN1Dz2nXWh4D1I9U=
+
+Name: res/drawable/btn_ouya_touchpad.png
+SHA-256-Digest: IhXjYNDfivIebF4oEAHAB5wahun2E7djOmHfH5FGBSI=
+
+Name: res/drawable/logo_default.png
+SHA-256-Digest: IC3trtXV2cCKpyBHqhrutjRDW1qdnJMgG9oHOMuD4CY=
+
+Name: res/drawable-xhdpi-v4/ouya_background.png
+SHA-256-Digest: TAtCJrJ/QAMqTan1rFCoFDt6LuAxQdxxp/jaMyVJH14=
+
+Name: classes.dex
+SHA-256-Digest: B3ONnbGfFJL5k54ycQYtzIoEZ3EC5KVPOMV46/ex3oM=
+
+Name: res/drawable-xxhdpi-v4/ouya_background.png
+SHA-256-Digest: TAtCJrJ/QAMqTan1rFCoFDt6LuAxQdxxp/jaMyVJH14=
+
+Name: res/drawable/btn_ouya_y.png
+SHA-256-Digest: 3hMEIbUpgBBhkGwWrK9hrhFOCW/K2ZRvo1clGv8cZOw=
+

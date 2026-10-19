@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/layout_background"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="28.0dp">
+
+    <!-- ========================= -->
+    <!-- TOP BAR                   -->
+    <!-- ========================= -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="90.0dp"
+        android:layout_marginBottom="20.0dp">
+
+        <ImageView
+            android:id="@id/logo"
+            android:layout_width="wrap_content"
+            android:layout_height="75.0dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10.0dp"
+            android:src="@drawable/logo_default_old"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="right|center_vertical">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="30.0dp"
+                android:gravity="center_vertical">
+                <TextView
+                    android:id="@id/date_status"
+                    android:text="01.01.2026"
+                    android:textSize="16.0sp"
+                    android:textStyle="bold"
+                    android:textColor="#ffb8bec8"
+                    android:gravity="right|center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="10.0dp"
+                    android:paddingRight="10.0dp" />
+                <TextView
+                    android:id="@id/battery_status"
+                    android:text="--%"
+                    android:textSize="16.0sp"
+                    android:textStyle="bold"
+                    android:textColor="#ffb8bec8"
+                    android:gravity="right|center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="10.0dp"
+                    android:paddingRight="10.0dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:background="@drawable/top_action_button"
+                android:layout_width="wrap_content"
+                android:layout_height="48.0dp"
+                android:layout_marginRight="12.0dp"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="35.0dp"
+                    android:layout_height="35.0dp"
+                    android:src="@drawable/btn_ouya_a"
+                    android:scaleType="fitCenter"
+                    android:adjustViewBounds="true" />
+
+                <TextView
+                    android:text="OK"
+                    android:textSize="18.0sp"
+                    android:textColor="#ffffffff"
+                    android:gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="5.0dp"
+                    android:paddingRight="10.0dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:background="@drawable/top_action_button"
+                android:layout_width="wrap_content"
+                android:layout_height="48.0dp"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="35.0dp"
+                    android:layout_height="35.0dp"
+                    android:src="@drawable/btn_ouya_y"
+                    android:scaleType="fitCenter"
+                    android:adjustViewBounds="true" />
+
+                <TextView
+                    android:text="Turn Off"
+                    android:textSize="18.0sp"
+                    android:textColor="#ffffffff"
+                    android:gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="5.0dp"
+                    android:paddingRight="10.0dp" />
+
+            </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+    <!-- ========================= -->
+    <!-- MAIN CONTENT              -->
+    <!-- ========================= -->
+
+    <LinearLayout
+        android:id="@id/main_container_of_scrollview"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0.0dp"
+        android:layout_weight="1.0"
+        android:layout_marginLeft="10.0dp"
+        android:layout_marginRight="10.0dp"
+        android:layout_marginBottom="10.0dp">
+
+
+        <!-- ========================= -->
+        <!-- LEFT NAVIGATION (SCROLL)  -->
+        <!-- ========================= -->
+
+        <ScrollView
+            android:layout_width="0.0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:fadingEdge="vertical"
+            android:scrollbars="none"
+            android:paddingRight="18.0dp">
+
+            <LinearLayout
+                android:id="@id/start_container"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!-- Section title -->
+
+                <TextView
+                    android:text="LIBRARY"
+                    android:textSize="16.0sp"
+                    android:textColor="#ffffffff"
+                    android:gravity="center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="42.0dp"
+                    android:paddingLeft="8.0dp"
+                    android:paddingBottom="4.0dp" />
+
+
+                <!-- Games -->
+
+                <Button
+                    android:id="@id/start_games"
+                    android:text="Games"
+                    android:textSize="22.0sp"
+                    android:textColor="#ffffffff"
+                    android:gravity="center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="58.0dp"
+                    android:layout_marginBottom="7.0dp"
+                    android:paddingLeft="22.0dp"
+                    android:paddingRight="15.0dp"
+                    android:background="@drawable/menu_button" />
+
+
+                <!-- Apps -->
+
+                <Button
+                    android:id="@id/start_apps"
+                    android:text="Apps"
+                    android:textSize="22.0sp"
+                    android:textColor="#ffffffff"
+                    android:gravity="center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="58.0dp"
+                    android:layout_marginBottom="7.0dp"
+                    android:paddingLeft="22.0dp"
+                    android:paddingRight="15.0dp"
+                    android:background="@drawable/menu_button" />
+
+
+                <!-- Favorites -->
+
+                <Button
+                    android:id="@id/start_favorites"
+                    android:text="Favorites"
+                    android:textSize="22.0sp"
+                    android:textColor="#ffffffff"
+                    android:gravity="center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="58.0dp"
+                    android:layout_marginBottom="7.0dp"
+                    android:paddingLeft="22.0dp"
+                    android:paddingRight="15.0dp"
+                    android:background="@drawable/menu_button" />
+
+
+                <!-- Android Apps -->
+
+                <Button
+                    android:id="@id/start_android"
+                    android:text="Android Apps"
+                    android:textSize="22.0sp"
+                    android:textColor="#ffffffff"
+                    android:gravity="center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="58.0dp"
+                    android:layout_marginBottom="7.0dp"
+                    android:paddingLeft="22.0dp"
+                    android:paddingRight="15.0dp"
+                    android:background="@drawable/menu_button" />
+
+
+                <!-- All Apps -->
+
+                <Button
+                    android:id="@id/start_all"
+                    android:text="All Apps"
+                    android:textSize="22.0sp"
+                    android:textColor="#ffffffff"
+                    android:gravity="center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="58.0dp"
+                    android:layout_marginBottom="7.0dp"
+                    android:paddingLeft="22.0dp"
+                    android:paddingRight="15.0dp"
+                    android:background="@drawable/menu_button" />
+
+
+                <!-- Discover -->
+
+                <Button
+                    android:id="@id/start_discover"
+                    android:text="Discover"
+                    android:textSize="22.0sp"
+                    android:textColor="#ffffffff"
+                    android:gravity="center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="58.0dp"
+                    android:layout_marginBottom="7.0dp"
+                    android:paddingLeft="22.0dp"
+                    android:paddingRight="15.0dp"
+                    android:background="@drawable/menu_button" />
+
+
+                <!-- Settings -->
+
+                <Button
+                    android:id="@id/start_settings"
+                    android:text="Settings"
+                    android:textSize="22.0sp"
+                    android:textColor="#ffffffff"
+                    android:gravity="center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="58.0dp"
+                    android:paddingLeft="22.0dp"
+                    android:paddingRight="15.0dp"
+                    android:background="@drawable/menu_button" />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+        <!-- ========================= -->
+        <!-- RIGHT DASHBOARD             -->
+        <!-- ========================= -->
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0.0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:paddingLeft="18.0dp">
+
+
+            <!-- Widgets -->
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="0.0dp"
+                android:layout_weight="1.0"
+                android:fillViewport="true"
+                android:scrollbars="vertical"
+                android:fadingEdge="vertical"
+                android:clipToPadding="false">
+
+                <LinearLayout
+                    android:id="@id/widgets_container"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="10.0dp" />
+
+            </ScrollView>
+
+
+            <!-- Clock -->
+
+            <LinearLayout
+                android:id="@id/clock_container"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="190.0dp"
+                android:gravity="center"
+                android:padding="10.0dp">
+
+                <AnalogClock
+                    android:id="@id/analog_clock"
+                    android:layout_width="170.0dp"
+                    android:layout_height="170.0dp" />
+
+                <DigitalClock
+                    android:id="@id/digital_clock"
+                    android:textSize="42.0sp"
+                    android:textColor="#ffffffff"
+                    android:gravity="center"
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    style="@style/ShadowText" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

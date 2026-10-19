@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppBaseTheme" parent="@android:style/Theme.Holo" />
+    <style name="AppTheme" parent="@style/AppBaseTheme">
+        <item name="android:textColor">#000</item>
+        <item name="android:alertDialogTheme">@style/LauncherAlertDialogTheme</item>
+    </style>
+    <style name="LauncherAlertDialogTheme" parent="@android:style/Theme.Holo.Dialog">
+        <item name="android:windowBackground">@drawable/dialog_window</item>
+        <item name="android:colorBackground">#F20D1726</item>
+        <item name="android:textColorPrimary">#FFFFFFFF</item>
+        <item name="android:textColorSecondary">#FFD3DCE8</item>
+        <item name="android:buttonBarButtonStyle">@style/LauncherDialogActionButton</item>
+        <item name="android:listDivider">@drawable/dialog_divider</item>
+    </style>
+    <style name="LauncherDialogActionButton" parent="@android:style/Widget.Holo.Button">
+        <item name="android:background">@drawable/dialog_button_selector</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+        <item name="android:minHeight">42.0dp</item>
+    </style>
+    <style name="ButtonBar">
+        <item name="android:background">@android:drawable/bottom_bar</item>
+        <item name="android:paddingLeft">2.0dp</item>
+        <item name="android:paddingTop">5.0dp</item>
+        <item name="android:paddingRight">2.0dp</item>
+        <item name="android:paddingBottom">0.0dp</item>
+    </style>
+    <style name="ButtonBarButton" />
+    <style name="FullscreenTheme" parent="@android:style/Theme.Holo">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:actionBarStyle">@style/FullscreenActionBarStyle</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="buttonBarStyle">?android:buttonBarStyle</item>
+        <item name="buttonBarButtonStyle">?android:buttonBarButtonStyle</item>
+    </style>
+    <style name="ShadowText">
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:paddingLeft">4.0px</item>
+        <item name="android:paddingBottom">4.0px</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">2.0</item>
+        <item name="android:shadowDy">2.0</item>
+        <item name="android:shadowRadius">5.0</item>
+    </style>
+    <style name="WallpapaerStyle" parent="@android:style/Theme.DeviceDefault.Wallpaper.NoTitleBar">
+        <item name="android:alertDialogTheme">@style/LauncherAlertDialogTheme</item>
+    </style>
+    <style name="FullscreenActionBarStyle" parent="@android:style/Widget.Holo.ActionBar">
+        <item name="android:background">@color/black_overlay</item>
+    </style>
+</resources>

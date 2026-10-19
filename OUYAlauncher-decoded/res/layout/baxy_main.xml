@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/bg_color" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:padding="28.0dp" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="42.0sp" android:textStyle="bold" android:textColor="#ffffff" android:id="@id/baxy_logo" android:text="OUYA" />
+        <LinearLayout android:orientation="horizontal" android:layout_marginTop="18.0dp">
+            <TextView android:textColor="#ffffff" android:background="@drawable/card_focused" android:padding="12.0dp" android:layout_marginRight="8.0dp" android:text="GAMES" />
+            <TextView android:textColor="#ffffff" android:background="@drawable/card_normal" android:padding="12.0dp" android:layout_marginRight="8.0dp" android:text="APPS" />
+            <TextView android:textColor="#ffffff" android:background="@drawable/card_normal" android:padding="12.0dp" android:text="SETTINGS" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_marginTop="24.0dp">
+            <TextView android:textSize="24.0sp" android:textColor="#ffffff" android:padding="10.0dp" android:text="ALL" />
+            <TextView android:textSize="24.0sp" android:textColor="#bdbdbd" android:padding="10.0dp" android:text="OUYA" />
+            <TextView android:textSize="24.0sp" android:textColor="#bdbdbd" android:padding="10.0dp" android:text="ANDROID" />
+            <TextView android:textSize="24.0sp" android:textColor="#bdbdbd" android:padding="10.0dp" android:text="EMULATED" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

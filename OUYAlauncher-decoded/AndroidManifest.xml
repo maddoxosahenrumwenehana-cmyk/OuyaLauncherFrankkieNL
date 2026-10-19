@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="nl.frankkie.ouyalauncher">
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_SUPERUSER"/>
+    <uses-permission android:name="android.permission.SHUTDOWN"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.RESTART_PACKAGES"/>
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.SET_WALLPAPER"/>
+    <uses-permission android:name="android.permission.SET_WALLPAPER_HINTS"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <application android:allowBackup="true" android:debuggable="false" android:icon="@drawable/ic_launcher" android:label="@string/app_name" android:theme="@style/AppTheme">
+        <activity android:label="@string/app_name" android:name="nl.frankkie.ouyalauncher.StartActivity" android:theme="@style/WallpapaerStyle">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.HOME"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="tv.ouya.intent.category.APP"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="nl.frankkie.ouyalauncher.MainActivity" android:theme="@style/WallpapaerStyle"/>
+        <activity android:label="Static Background" android:name="nl.frankkie.ouyalauncher.BackgroundActivity" android:theme="@style/WallpapaerStyle">
+            <intent-filter>
+                <action android:name="android.intent.action.SET_WALLPAPER"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="nl.frankkie.ouyalauncher.RunningAppsActivity" android:theme="@style/WallpapaerStyle"/>
+        <activity android:name="nl.frankkie.ouyalauncher.SettingsActivity" android:theme="@style/WallpapaerStyle"/>
+        <activity android:name="nl.frankkie.ouyalauncher.LogoActivity" android:theme="@style/WallpapaerStyle"/>
+        <activity android:name="nl.frankkie.ouyalauncher.FeedbackActivity" android:theme="@style/WallpapaerStyle"/>
+        <activity android:name="nl.frankkie.ouyalauncher.BackgroundMusicActivity" android:theme="@style/WallpapaerStyle"/>
+        <activity android:name="nl.frankkie.ouyalauncher.WebserverActivity" android:theme="@style/WallpapaerStyle"/>
+        <service android:name="nl.frankkie.ouyalauncher.BackgroundMusicService"/>
+    </application>
+</manifest>
+
