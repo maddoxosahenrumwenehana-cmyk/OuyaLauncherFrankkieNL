@@ -34,7 +34,6 @@ The launcher source is offered under [PolyForm Noncommercial 1.0.0](LICENSE), wi
 
 PolyForm applies only to code whose rights are covered by that grant. Keep third-party notices and licenses intact; see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). Artwork is not covered by the code license; see [ARTWORK_AND_ATTRIBUTION.md](ARTWORK_AND_ATTRIBUTION.md).
 
-The upstream author confirmed that a fork is welcome. On 19 October 2026, he said the artwork creator had not responded and suggested assuming the creator did not mind. That is not a direct license statement from the artwork creator; attribution and the status are recorded transparently in the artwork notice.
 
 ## Device notes
 
